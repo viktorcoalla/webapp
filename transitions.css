@@ -5,3 +5,11 @@ html.is-changing .transition-main {
 html.is-animating .transition-main {
   opacity: 0;
 }
+
+html.is-changing .uc-transition-main {
+  transition: opacity 250ms ease-in-out;
+}
+
+html.is-animating .uc-transition-main {
+  opacity: 0;
+}

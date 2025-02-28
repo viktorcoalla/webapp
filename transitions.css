@@ -1,11 +1,11 @@
 
 
 
-html.is-changing .t-records {
+html.is-changing .transition-main {
   transition: opacity 250ms ease-in-out;
 }
 
-html.is-animating .t-records {
+html.is-animating .transition-main {
   opacity: 0;
 }
 

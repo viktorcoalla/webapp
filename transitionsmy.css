@@ -5,3 +5,6 @@ html.is-changing .t-records {
 html.is-animating .t-records {
   opacity: 0;
 }
+.t-records{
+  background: #000000;
+}

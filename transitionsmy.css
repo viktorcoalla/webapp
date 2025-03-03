@@ -1,14 +1,16 @@
 .t-records{
-  transition: .4s;
-  transform: translateY(0);
+	opacity: 1;
+	transition: .5s;
+	transform: translateY(0);
+	transform-origin: top;
 }
-html.is-changing .t-records {
-  transition: opacity 250ms ease-in-out;
-}
-
 html.is-animating .t-records {
   opacity: 0;
   transform: translateY(-100px);
+}
+html.is-eaving .t-records {
+  opacity: 0;
+  transform: translateY(0);
 }
 .overlay {
 	position: absolute;

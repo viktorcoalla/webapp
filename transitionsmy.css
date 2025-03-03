@@ -8,10 +8,7 @@ html.is-animating .t-records {
   opacity: 0;
   transform: translateY(-100px);
 }
-html.is-leaving .t-records {
-  opacity: 0;
-  transform: translateY(0);
-}
+
 .overlay {
 	position: absolute;
 	width: 100%;

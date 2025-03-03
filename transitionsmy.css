@@ -7,9 +7,7 @@
   
 }
 
-html.is-changing .t-records {
-  transition: opacity 250ms ease-in-out;
-}
+
 
 html.is-animating .t-records {
   opacity: 0;

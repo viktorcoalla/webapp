@@ -1,10 +1,11 @@
 html.is-changing .t-records {
   transition: opacity 250ms ease-in-out;
+  transform: translateY(-100px);
 }
 
 html.is-animating .t-records {
   opacity: 0;
-  transform: translateY(-100px);
+  transform: translateY(-200px);
 }
 .t-records{
   background: #000000;

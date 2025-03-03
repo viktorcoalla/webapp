@@ -8,7 +8,7 @@ html.is-animating .t-records {
   opacity: 0;
   transform: translateY(-100px);
 }
-html.is-eaving .t-records {
+html.is-leaving .t-records {
   opacity: 0;
   transform: translateY(0);
 }

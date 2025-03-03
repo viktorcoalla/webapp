@@ -4,6 +4,7 @@ html.is-changing .t-records {
 
 html.is-animating .t-records {
   opacity: 0;
+  transform: translateY(-100px);
 }
 .t-records{
   background: #000000;

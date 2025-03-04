@@ -5,11 +5,11 @@
 	transform-origin: top;
 }
 html.is-animating .transition-main {
-  opacity: 1;
+  opacity: 0;
   transform: translateY(-100px);
 }
 html.is-leaving .transition-main {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(0);
 }
 

@@ -1,6 +1,4 @@
 .transition-main{
-	opacity: 1;
-	transition: .5s;
 	transform: translateY(0);
 	transform-origin: top;
 }

@@ -1,10 +1,10 @@
-.t-records{
+.transition-main{
 	opacity: 1;
 	transition: .5s;
 	transform: translateY(0);
 	transform-origin: top;
 }
-html.is-animating .t-records {
+html.is-animating .transition-main {
   opacity: 0;
   transform: translateY(-100px);
 }

@@ -7,11 +7,11 @@ html.is-changing .t-records {
   transition: transform 400ms ease-in-out;
 }
 
-html.is-animating.is-leaving .t-records {
+html.is-animating .t-records {
   transform: translateY(calc(1 * 5vh * var(--overlay-direction, 1)));
 }
 
-html.is-animating.is-rendering .t-records {
+html.is-animating .t-records {
   transform: translateY(calc(-1 * 5vh * var(--overlay-direction, 1)));
 }
 

@@ -1,6 +1,6 @@
  /* Slightly move main content */
 
-html.is-changing .t-recordsn {
+html.is-changing .t-records {
   transition: transform 400ms ease-in-out;
 }
 

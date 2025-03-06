@@ -1,14 +1,14 @@
  /* Slightly move main content */
 
-html.is-changing .transition-main {
+html.is-changing .t-recordsn {
   transition: transform 400ms ease-in-out;
 }
 
-html.is-animating.is-leaving .transition-main {
+html.is-animating.is-leaving .t-records {
   transform: translateY(calc(1 * 5vh * var(--overlay-direction, 1)));
 }
 
-html.is-animating.is-rendering .transition-main {
+html.is-animating.is-rendering .t-records {
   transform: translateY(calc(-1 * 5vh * var(--overlay-direction, 1)));
 }
 
